@@ -1,7 +1,7 @@
 class CreatePosts < ActiveRecord::Migration
   def change
     create_table :posts do |t|
-      t.string :avatar
+      t.attachment :avatar
       t.integer :candy_crush
       t.integer :flappy_bird
       t.integer :fruit_ninja

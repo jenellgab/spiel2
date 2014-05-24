@@ -1,7 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  avatar: MyString
+  avatar: 
   candy_crush: 1
   flappy_bird: 1
   fruit_ninja: 1
@@ -18,7 +18,7 @@ one:
   message: MyString
 
 two:
-  avatar: MyString
+  avatar: 
   candy_crush: 1
   flappy_bird: 1
   fruit_ninja: 1

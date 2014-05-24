@@ -13,9 +13,9 @@
 		<p><%= post.iron_pants %></p>
 		<p><%= post.temple_run %></p>
 		<p><%= post.message %></p>
-		<%= image_tag post.avatar.url %>
-		<%= image_tag post.avatar.url(:medium) %>
-		<%= image_tag post.avatar.url(:thumb) %>	
+		<%= image_tag @post.avatar.url %>
+		<%= image_tag @post.avatar.url(:medium) %>
+		<%= image_tag @post.avatar.url(:thumb) %>	
 	</div>
 <% end %>
 
