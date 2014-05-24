@@ -1,0 +1,7 @@
+<h1>New Score</h1>
+<%= simple_form_for @posts do |f| %>
+	<%= f.input :score, as: :text %>
+	<%= f.input :type,  as: :select,
+    collection: ["2048", "2 Fuse", "Candy Crush", "Flappy Bird", "Fruit Ninja", "Giant Boulder of Death", "Iron Pants", "Piano Tiles", "Minion Rush", "Temple Run" ] %>
+	<%= f.submit %>
+<% end %>

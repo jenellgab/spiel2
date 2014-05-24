@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  avatar: MyString
+  candy_crush: 1
+  flappy_bird: 1
+  fruit_ninja: 1
+  fuse: 1
+  gbd: 1
+  iron_pants: 1
+  minion_rush: 1
+  piano_tiles: 1
+  published_at: 2014-05-24
+  temple_run: 1
+  twenty: 1
+  score: 1
+  type: 
+  message: MyString
+
+two:
+  avatar: MyString
+  candy_crush: 1
+  flappy_bird: 1
+  fruit_ninja: 1
+  fuse: 1
+  gbd: 1
+  iron_pants: 1
+  minion_rush: 1
+  piano_tiles: 1
+  published_at: 2014-05-24
+  temple_run: 1
+  twenty: 1
+  score: 1
+  type: 
+  message: MyString

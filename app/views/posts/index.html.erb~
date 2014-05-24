@@ -1,0 +1,17 @@
+<h1>My Scores</h1>
+<% @posts.each do |post| %>
+	<div class="well">
+
+		<p><%= post.candy_crush %></p>
+		<p><%= post.flappy_bird %></p>
+		<p><%= post.piano_tiles %></p>
+		<p><%= post.gbd %></p>
+		<p><%= post.twenty %></p>
+		<p><%= post.fruit_ninja %></p>
+		<p><%= post.minion_rush %></p>
+		<p><%= post.fuse %></p>
+		<p><%= post.iron_pants %></p>
+		<p><%= post.temple_run %></p>	
+	</div>
+<% end %>
+<%= link_to 'Post Score', new_post_path %>
