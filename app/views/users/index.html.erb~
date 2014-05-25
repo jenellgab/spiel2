@@ -1,13 +1,21 @@
+<table class="table">
+	<thead>
+		<tr>
+			<td>Id</td>
+			<td>Username</td>
+			<td>Password</td>
+			<td></td>
+		</tr>
+	</thead>
+	<tbody>
+		<% @users.each do |user| %>
+		<tr>
+			<td><%= user.id %></td>
+			<td><%= link_to user.username, user %></td>
+			<%= link_to "Add Friend", friendships_path(:friend_id => user), :method => :post %>
+%></td>
+		</tr>
+		<% end %>
+</tbody>
+</table>
 
-
-<div id="users">
-<% for user in @users %>
-  <div class="user">
-    <p>
-      <strong><%=h user.username %></strong>
-      <%= link_to "Add Friend", friendships_path(:friend_id => user), :method => :post %>
-      <div class="clear"></div>
-    </p>
-  </div>
-<% end %>
-</div>
